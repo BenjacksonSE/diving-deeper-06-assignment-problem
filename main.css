@@ -1,0 +1,28 @@
+* {
+    margin: none;
+}
+
+body {
+    height: 100%;
+}
+
+.main-box {
+    display: inline-block;
+    color: aquamarine;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px dashed black;
+    margin: 20px;
+}
+
+.main-box__1 {
+    display: none;
+    height: 300px;
+    width: 50%;
+}
+
+.main-box__2:hover {
+    color: white;
+    background-color: aquamarine;
+}
